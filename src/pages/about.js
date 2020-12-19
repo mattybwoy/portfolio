@@ -6,7 +6,7 @@ export default function About({ data }) {
   return (
     <Layout>
       <br></br>
-      <h1>About {data.site.siteMetadata.title}</h1>
+      <h2>About {data.site.siteMetadata.title}</h2>
       <p>
         I like computers
       </p>

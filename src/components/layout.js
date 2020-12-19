@@ -3,8 +3,8 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import { css } from "@emotion/core"
 import CSS from "./layout.module.css"
 import logo from "../../static/favicon.ico"
-
 import { rhythm } from "../utils/typography"
+
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
